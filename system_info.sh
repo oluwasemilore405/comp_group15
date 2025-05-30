@@ -29,4 +29,6 @@ echo -e "\nSystem Temperature Readings:"
 if command -v sensors &> /dev/null; then 
 echo "Temperature data not available."
 echo "Tip: Install it using 'sudo apt install 1m-sensors' and run 'sudo sensors-detect'"
+else
+sensors
 fi 
